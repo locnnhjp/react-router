@@ -7,7 +7,7 @@ function Login() {
 
     function handleChange(e) {
         setForm({
-            ...form, [e.target.name]: e.target.name
+            ...form, [e.target.name]: e.target.value
         });
     }
 
